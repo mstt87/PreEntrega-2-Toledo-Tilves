@@ -85,6 +85,10 @@ nav a:hover {
     color: black;
     cursor: pointer;
 }
+.link-redes a {
+    text-decoration: none;
+
+}
 
 .footer-redes i:hover {
     color: deepskyblue;
