@@ -33,7 +33,7 @@ nav a:hover {
     height: 500px;
     background: #67B26F;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F); 
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, hsla(200, 56%, 55%, 0.345), hsla(126, 33%, 55%, 0.339)), url(./img/spa4principal.jpg);
     background-size: cover;
@@ -82,12 +82,14 @@ nav a:hover {
 }
 
 .footer-redes i {
+    color: black;
     cursor: pointer;
 }
 
 .footer-redes i:hover {
     color: deepskyblue;
 }
+
 
 .btn-arriba{
     width: 47px;    
