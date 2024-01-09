@@ -1,0 +1,29 @@
+$color_1: #67c0ae;
+$color_2: black;
+$color_3: rgb(48, 193, 157);
+$color_4: aquamarine;
+$color_5: white;
+$color_6: rgb(241, 230, 230);
+$color_7: rgba(9, 182, 182, 0.844);
+$color_8: #fff;
+$font-family_1: montserrat alternates,sans-serif;
+$font-family_2: Arial, Helvetica, sans-serif;
+$background-color_1: rgba(105, 105, 105, 0.221);
+$background-color_2: #76d7c46e;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	max-width: 100% !important;
+	overflow-x: hidden !important;
+	font-family: $font-family_1;
+}
+body {
+	max-width: 100% !important;
+	overflow-x: hidden !important;
+	font-family: $font-family_1;
+}
+

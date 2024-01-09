@@ -1,0 +1,29 @@
+.logo {
+	width: 120px;
+}
+.footer-redes {
+	i {
+		color: $color_2;
+		cursor: pointer;
+		&:hover {
+			color: $color_3;
+			
+		}
+	}
+}
+.link-redes {
+	a {
+		text-decoration: none;
+	}
+}
+.btn-arriba{
+    width: 47px;    
+    font-size: 45px;
+    list-style: none;
+    color: black;
+    }
+
+    .btn-arriba:hover{
+        color:aquamarine;
+		
+    }
