@@ -1,12 +1,14 @@
 .nav {
 	margin: 0;
 }
+
 .nav-link {
 	font-weight: bold;
 	list-style: none;
 	color: $color_1;
-	text-shadow: 9px 5px 6px ;
+	text-shadow: 9px 5px 6px;
 }
+
 nav {
 	a {
 		&:hover {
@@ -14,7 +16,3 @@ nav {
 		}
 	}
 }
-
-
-	
-
