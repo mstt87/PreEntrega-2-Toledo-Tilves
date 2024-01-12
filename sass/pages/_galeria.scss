@@ -19,6 +19,7 @@
 		filter: sepia(100%);
 		transition-duration: 1s;
 	}
+
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -27,12 +28,13 @@
 
 .imagen-gal {
 	max-width: 100%;
+
 	&:hover {
 		border: 5px solid #fff;
 		-webkit-transform: scale(1.1);
 		-ms-transform: scale(1.1);
 		transform: scale(1.1);
-		-webkit-filter:none;
+		-webkit-filter: none;
 		filter: none;
 	}
 }

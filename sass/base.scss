@@ -6,7 +6,7 @@ $color_5: white;
 $color_6: rgb(241, 230, 230);
 $color_7: rgba(9, 182, 182, 0.844);
 $color_8: #fff;
-$font-family_1: montserrat alternates,sans-serif;
+$font-family_1: montserrat alternates, sans-serif;
 $font-family_2: Arial, Helvetica, sans-serif;
 $background-color_1: rgba(105, 105, 105, 0.221);
 $background-color_2: #76d7c46e;
@@ -16,14 +16,15 @@ $background-color_2: #76d7c46e;
 	padding: 0;
 	box-sizing: border-box;
 }
+
 html {
 	max-width: 100% !important;
 	overflow-x: hidden !important;
 	font-family: $font-family_1;
 }
+
 body {
 	max-width: 100% !important;
 	overflow-x: hidden !important;
 	font-family: $font-family_1;
 }
-
