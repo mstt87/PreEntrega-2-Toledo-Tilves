@@ -109,6 +109,13 @@ nav a:hover {
     width: 350px;
     margin-left: 15px;
   }
+  .maincontacto {
+    max-width: 370px;
+    width: 100%;
+  }
+  .contacto1 .contactotext {
+    text-align: center;
+  }
 }
 .navbar-brand {
   -webkit-animation-name: zoomIn;
