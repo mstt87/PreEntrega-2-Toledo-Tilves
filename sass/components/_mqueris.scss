@@ -1,11 +1,11 @@
 @media (max-width: 700px) {
 	.textos-header {
 		width: 100%;
-		background-repeat:round;
+		background-repeat: round;
 		position: relative;
 		background-attachment: fixed;
 		background-size: cover;
-		
+
 	}
 
 	.titulo {
@@ -14,38 +14,42 @@
 
 	.contenedor-nuestras {
 		img {
-			width: 350px;
+			width: 300px;
 		}
 	}
 
 	.imagen-masaje {
 		img {
-			width: 350px;
+			width: 300px;
 		}
 	}
 
 	.texto-nuestras {
 		width: 350px;
-		margin-left: 15px;
+		margin-left: 60px;
 		align-content: center;
 		justify-content: center;
+		text-align: center;
 	}
 
 	.bonosregalo {
 		width: 350px;
+		text-align: center;
 	}
 
 	.texto-trata {
 		width: 350px;
-		margin-left: 15px;
+		margin-left: 50px;
+		text-align: center;
 	}
 
-	.maincontacto{
+	.maincontacto {
 		max-width: 370px;
-		width:100%;
+		width: 100%;
 	}
-	.contacto1 .contactotext{
-	text-align: center;
-	}
-}
 
+	.contacto1 .contactotext {
+		text-align: center;
+	}
+
+}

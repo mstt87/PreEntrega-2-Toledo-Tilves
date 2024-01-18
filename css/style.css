@@ -50,7 +50,7 @@ nav a:hover {
   margin-bottom: 60px;
   margin-top: 30px;
   text-decoration: underline;
-  text-shadow: 1px 1px 2px black, 0 0 1em rgb(25, 155, 174), 0 0 0.2em rgb(37, 159, 170);
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(35, 208, 235), 0 0 0.2em rgb(18, 80, 86);
 }
 
 .logo {
@@ -92,23 +92,26 @@ nav a:hover {
     font-size: 20px;
   }
   .contenedor-nuestras img {
-    width: 350px;
+    width: 300px;
   }
   .imagen-masaje img {
-    width: 350px;
+    width: 300px;
   }
   .texto-nuestras {
     width: 350px;
-    margin-left: 15px;
+    margin-left: 60px;
     align-content: center;
     justify-content: center;
+    text-align: center;
   }
   .bonosregalo {
     width: 350px;
+    text-align: center;
   }
   .texto-trata {
     width: 350px;
-    margin-left: 15px;
+    margin-left: 50px;
+    text-align: center;
   }
   .maincontacto {
     max-width: 370px;
@@ -466,6 +469,11 @@ textarea {
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 10px;
+}
+
+.contacto-titulo {
+  text-decoration-line: underline;
+  margin-bottom: 40px;
 }
 
 .contenedor-galeria {
