@@ -50,7 +50,7 @@ nav a:hover {
   margin-bottom: 60px;
   margin-top: 30px;
   text-decoration: underline;
-  text-shadow: 1px 1px 2px black, 0 0 1em rgb(35, 208, 235), 0 0 0.2em rgb(18, 80, 86);
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(25, 155, 174), 0 0 0.2em rgb(37, 159, 170);
 }
 
 .logo {
@@ -61,6 +61,7 @@ nav a:hover {
   color: black;
   cursor: pointer;
 }
+
 .footer-redes i:hover {
   color: rgb(48, 193, 157);
 }
@@ -88,15 +89,19 @@ nav a:hover {
     background-attachment: fixed;
     background-size: cover;
   }
+
   .titulo {
     font-size: 20px;
   }
+
   .contenedor-nuestras img {
     width: 300px;
   }
+
   .imagen-masaje img {
     width: 300px;
   }
+
   .texto-nuestras {
     width: 350px;
     margin-left: 60px;
@@ -104,23 +109,28 @@ nav a:hover {
     justify-content: center;
     text-align: center;
   }
+
   .bonosregalo {
     width: 350px;
     text-align: center;
   }
+
   .texto-trata {
     width: 350px;
     margin-left: 50px;
     text-align: center;
   }
+
   .maincontacto {
     max-width: 370px;
     width: 100%;
   }
+
   .contacto1 .contactotext {
     text-align: center;
   }
 }
+
 .navbar-brand {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
@@ -136,20 +146,24 @@ nav a:hover {
     -webkit-transform: scale3d(0.3, 0.3, 0.3);
     transform: scale3d(0.3, 0.3, 0.3);
   }
+
   50% {
     opacity: 1;
   }
 }
+
 @keyframes zoomIn {
   0% {
     opacity: 0;
     -webkit-transform: scale3d(0.3, 0.3, 0.3);
     transform: scale3d(0.3, 0.3, 0.3);
   }
+
   50% {
     opacity: 1;
   }
 }
+
 .text-center {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
@@ -165,20 +179,24 @@ nav a:hover {
     -webkit-transform: scale3d(0.3, 0.3, 0.3);
     transform: scale3d(0.3, 0.3, 0.3);
   }
+
   50% {
     opacity: 1;
   }
 }
+
 @keyframes zoomIn {
   0% {
     opacity: 0;
     -webkit-transform: scale3d(0.3, 0.3, 0.3);
     transform: scale3d(0.3, 0.3, 0.3);
   }
+
   50% {
     opacity: 1;
   }
 }
+
 .maincontacto {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
@@ -192,18 +210,22 @@ nav a:hover {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 .formu-res {
   -webkit-animation-name: tada;
   animation-name: tada;
@@ -218,55 +240,79 @@ nav a:hover {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
-  10%, 20% {
+
+  10%,
+  20% {
     -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
     transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
   }
-  30%, 50%, 70%, 90% {
+
+  30%,
+  50%,
+  70%,
+  90% {
     -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
     transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
   }
-  40%, 60%, 80% {
+
+  40%,
+  60%,
+  80% {
     -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
     transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
   }
+
   100% {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
 }
+
 @keyframes tada {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
-  10%, 20% {
+
+  10%,
+  20% {
     -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
     transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
   }
-  30%, 50%, 70%, 90% {
+
+  30%,
+  50%,
+  70%,
+  90% {
     -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
     transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
   }
-  40%, 60%, 80% {
+
+  40%,
+  60%,
+  80% {
     -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
     transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
   }
+
   100% {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
 }
+
 @keyframes show {
   from {
     opacity: 0;
     scale: 25%;
   }
+
   to {
     opacity: 1;
     scale: 100%;
   }
 }
+
 .formulario1 {
   -webkit-animation-name: rotateIn;
   animation-name: rotateIn;
@@ -284,6 +330,7 @@ nav a:hover {
     transform: rotate3d(0, 0, 1, -200deg);
     opacity: 0;
   }
+
   100% {
     -webkit-transform-origin: center;
     transform-origin: center;
@@ -292,6 +339,7 @@ nav a:hover {
     opacity: 1;
   }
 }
+
 @keyframes rotateIn {
   0% {
     -webkit-transform-origin: center;
@@ -300,6 +348,7 @@ nav a:hover {
     transform: rotate3d(0, 0, 1, -200deg);
     opacity: 0;
   }
+
   100% {
     -webkit-transform-origin: center;
     transform-origin: center;
@@ -308,6 +357,7 @@ nav a:hover {
     opacity: 1;
   }
 }
+
 .titulo {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
@@ -323,24 +373,28 @@ nav a:hover {
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
+
   100% {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
   }
 }
+
 @keyframes fadeInDown {
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
+
   100% {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
   }
 }
+
 .img-inner {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
@@ -356,24 +410,28 @@ nav a:hover {
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
+
   100% {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
   }
 }
+
 @keyframes fadeInDown {
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
+
   100% {
     opacity: 8;
     -webkit-transform: none;
     transform: none;
   }
 }
+
 .maincontacto {
   background-image: url("../img/spa3.jpg");
   justify-content: center;
@@ -406,6 +464,7 @@ nav a:hover {
   width: 90%;
   position: relative;
 }
+
 .fmcontrol input {
   height: 100%;
   width: 100%;
@@ -441,6 +500,7 @@ textarea {
   margin-bottom: 100px;
   cursor: pointer;
 }
+
 .boton1:hover {
   text-decoration: underline;
   color: rgba(9, 182, 182, 0.844);
@@ -471,11 +531,6 @@ textarea {
   margin-top: 10px;
 }
 
-.contacto-titulo {
-  text-decoration-line: underline;
-  margin-bottom: 40px;
-}
-
 .contenedor-galeria {
   background-image: url(/img/wepik-export-20231217004347fpYh.jpeg);
   background-size: cover;
@@ -493,6 +548,7 @@ textarea {
   justify-content: center;
   align-items: center;
 }
+
 .container-gal .imagen-gal {
   width: 500px;
   height: 300px;
@@ -506,6 +562,7 @@ textarea {
 .imagen-gal {
   max-width: 100%;
 }
+
 .imagen-gal:hover {
   border: 5px solid #fff;
   -webkit-transform: scale(1.1);
@@ -540,6 +597,7 @@ textarea {
   display: flex;
   justify-content: space-evenly;
 }
+
 .contenedor-nuestro-spa img {
   width: 600px;
   margin: 20px;
@@ -587,6 +645,7 @@ textarea {
   border-radius: 10% 35%;
   font-weight: bold;
 }
+
 .btnreser:hover {
   background-image: linear-gradient(to right, #434343 0%, black 100%);
   color: white;
