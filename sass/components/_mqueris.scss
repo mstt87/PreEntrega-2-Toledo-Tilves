@@ -14,8 +14,6 @@
 	.contenedor-nuestras {
 		img {
 			max-width: 90%;
-
-
 		}
 	}
 
@@ -27,13 +25,13 @@
 		}
 	}
 
-		.texto-nuestras1 {
-			max-width: 340px;
-			margin-left: 20px;
-			align-content: center;
-			justify-content: center;
-			text-align: center;
-		}
+	.texto-nuestras1 {
+		max-width: 340px;
+		margin-left: 20px;
+		align-content: center;
+		justify-content: center;
+		text-align: center;
+	}
 
 	.bonosregalo {
 		max-width: 350px;
@@ -48,8 +46,9 @@
 	}
 
 	.maincontacto {
-		max-width: 320px;
-		width: 100%;
+		max-width: 200px;
+
+		width: 90%;
 	}
 
 	.contacto1 .contactotext {
@@ -63,6 +62,16 @@
 	.textos-header {
 		background-size: cover;
 		background-attachment: unset;
+	}
+
+	.maincontacto {
+		max-width: 600px;
+		width: 90%;
+	}
+
+	.contacto1 .contactotext {
+		justify-content: center;
+		text-align: center;
 	}
 
 }

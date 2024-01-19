@@ -114,8 +114,8 @@ nav a:hover {
     text-align: center;
   }
   .maincontacto {
-    max-width: 320px;
-    width: 100%;
+    max-width: 200px;
+    width: 90%;
   }
   .contacto1 .contactotext {
     justify-content: center;
@@ -126,6 +126,14 @@ nav a:hover {
   .textos-header {
     background-size: cover;
     background-attachment: unset;
+  }
+  .maincontacto {
+    max-width: 600px;
+    width: 90%;
+  }
+  .contacto1 .contactotext {
+    justify-content: center;
+    text-align: center;
   }
 }
 .navbar-brand {
