@@ -33,12 +33,12 @@ nav a:hover {
 
 .textos-header {
   width: 100%;
-  height: 500px;
+  height: 650px;
   background: #67B26F;
   background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);
   background: linear-gradient(to right, hsla(200, 56%, 55%, 0.345), hsla(126, 33%, 55%, 0.339)), url("../img/spa4principal.jpg");
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   position: relative;
   text-shadow: 1px 1px 2px black, 0 0 1em #fff, 0 0 0.2em #fff;
 }
@@ -83,42 +83,49 @@ nav a:hover {
 @media (max-width: 700px) {
   .textos-header {
     width: 100%;
+    height: 450px;
     background-repeat: round;
     position: relative;
-    background-attachment: fixed;
-    background-size: cover;
   }
   .titulo {
     font-size: 20px;
   }
   .contenedor-nuestras img {
-    width: 300px;
+    max-width: 90%;
   }
   .imagen-masaje img {
-    width: 300px;
+    max-width: 90%;
   }
-  .texto-nuestras {
-    width: 350px;
-    margin-left: 60px;
+  .texto-nuestras1 {
+    max-width: 340px;
+    margin-left: 20px;
     align-content: center;
     justify-content: center;
     text-align: center;
   }
   .bonosregalo {
-    width: 350px;
+    max-width: 350px;
     text-align: center;
+    margin-bottom: 30px;
   }
   .texto-trata {
-    width: 350px;
-    margin-left: 50px;
+    max-width: 340px;
+    margin-left: 15px;
     text-align: center;
   }
   .maincontacto {
-    max-width: 370px;
+    max-width: 320px;
     width: 100%;
   }
   .contacto1 .contactotext {
+    justify-content: center;
     text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .textos-header {
+    background-size: cover;
+    background-attachment: unset;
   }
 }
 .navbar-brand {
