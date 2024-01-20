@@ -98,9 +98,7 @@ nav a:hover {
   }
   .texto-nuestras1 {
     max-width: 340px;
-    margin-left: 20px;
-    align-content: center;
-    justify-content: center;
+    margin-left: 40px;
     text-align: center;
   }
   .bonosregalo {
@@ -110,7 +108,7 @@ nav a:hover {
   }
   .texto-trata {
     max-width: 340px;
-    margin-left: 15px;
+    margin-left: 45px;
     text-align: center;
   }
   .maincontacto {
